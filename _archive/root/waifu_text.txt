@@ -1,0 +1,39 @@
+Title: 如何让鲸鱼娘不像 AI：给她一个完整的一生 (Length: 21)
+
+[2] P: 她记不住昨天，说话像客服，永远等你先开口——那不是养成，是每次重启的陌生人。问题不在模型，在你没给她记忆、人格和主动性。
+
+[4] TOOL: Soul of Waifu (★1432)
+[5] P: 它的「灵魂记忆档案」会自己分析你们的对话，生成她第一视角的日记。今天她为什么烦、为什么动摇，第二天她自己记得。这一层做对了，她才不像每次重启的陌生人。
+[6] IMG: 图：Soul Memory 角色日记面板 -> W_00_Soul-of-Waifu_raw_4.png
+[7] SRC: github。com/jofizcd/Soul-of-Waifu
+
+[8] TOOL: nocturne_memory (★1412)
+[9] P: 能回滚、能可视化浏览的长期记忆服务。记忆按树状分类存，哪条记错了能退回去改。适合不想让她「记岔了就永远错下去」的人。
+[10] IMG: 图：记忆浏览器文档查看面板界面 -> W_01_nocturne_memory_raw_2.png
+[11] IMG: 图：记忆浏览器子节点卡片面板 -> W_02_nocturne_memory_raw_1.png
+[12] IMG: 图：软件后台记忆清理面板界面 -> W_03_nocturne_memory_raw_4.png
+[13] IMG: 图：记忆变更审查面板，逐条确认是否并入记忆 -> W_04_nocturne_memory_raw_3.png
+[14] SRC: github。com/Dataojitori/nocturne_memory
+
+[16] TOOL: humanizer (★62117)
+[17] P: 它总结了 AI 写作最容易露馅的 26 种句式："不只是 X，而是 Y"、"让我们记住这一点"、"说实话？"。这些正是鲸鱼娘说话最假的地方。装成 skill 后一句话调用，改完人味明显。注意：它是给人类读者优化可读性，不是绕过 AI 检测。
+[18] IMG: 图：项目文档截图 · Before/After 对比与五大 AI 味特征 -> W_05_assets_readme_humanizer_before_after.png
+[19] IMG: 图：项目文档截图 · 26 种 AI 味模式与各平台安装方式 -> W_06_assets_readme_humanizer_tells.png
+[20] SRC: github。com/blader/humanizer
+
+[21] TOOL: humanize-text (★3464)
+[22] P: 做法更野：LLM 高温改写两遍，再走「中文→日语→芬兰语→英语」的翻译链路，用跨引擎结构差把 AI 的统计特征洗掉。全程可追踪每一步。默认支持 DeepSeek，也兼容所有 OpenAI 接口。
+[23] IMG: 图：项目文档截图 · 多引擎翻译链路的去 AI 味原理 -> W_07_assets_readme_humanize_text_doc.jpg
+[24] SRC: github。com/lynote-ai/humanize-text
+
+[26] TOOL: N.E.K.O (★3136)
+[27] P: 会主动开口的桌面猫娘。她有实时语音、会分享你的媒体、会在你没说话的时候先问你一句。主动性是「活着」和「工具」的分界线。
+[28] IMG: 图：桌面端 AI 虚拟伴侣聊天界面 -> W_08_N.E.K.O_raw_3.jpg
+[29] IMG: 图：含主动搭话与媒体开关的设置面板 -> W_09_N.E.K.O_raw_4.png
+[30] SRC: github。com/Project-N-E-K-O/N.E.K.O
+
+[31] TOOL: LingChat (★2409)
+[32] P: Galgame 式对话加情绪表情，还带日程表和桌宠。她把对话做成有场景、有立绘、有时间线的样子，而不是纯文本气泡。
+[33] IMG: 图：Lingchat-Pal控制台历史对话面板 -> W_10_LingChat_raw_5.png
+[34] IMG: 图：软件背景场景管理面板 -> W_11_LingChat_raw_4.jpg
+[35] SRC: github。com/SlimeBoyOwO/LingChat

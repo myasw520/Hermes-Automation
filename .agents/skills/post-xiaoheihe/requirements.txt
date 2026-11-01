@@ -1,0 +1,11 @@
+# 小黑盒发布依赖
+# 装法见 README「安装」一节，或直接跑 install.bat
+patchright==1.58.2
+playwright==1.58.0
+
+# 说明
+# - patchright 是 social-auto-upload 那套在用的反检测 playwright，CDP 连接两者等价。
+# - playwright 1.58.0 必须装：patchright 不提供 playwright 模块，
+#   而部分脚本/库会 import playwright，缺了会报 ModuleNotFoundError。
+# - 不需要下载 playwright 自带浏览器（playwright install），
+#   本套脚本全部连本机 Chrome 的调试端口。

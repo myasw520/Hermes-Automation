@@ -1,0 +1,18 @@
+# Hermes-Automation 依赖清单（手工裁剪版，2026-10-31）
+# 覆盖范围：daemon 调度链 9 任务 + welfare_harvester 传递依赖 + skill 引用脚本
+#          （niche_gem_harvester / vision_auditor）+ 19 个活跃产出脚本。
+# 重建命令：
+#   pip install -r requirements.txt
+#   python -m playwright install chromium
+# 注意：ddddocr 依赖 onnxruntime，opencv-python 为其图像前处理依赖，勿删。
+
+requests==2.32.3
+playwright==1.64.0
+playwright-stealth==2.0.3
+ddddocr==1.6.1
+pillow==10.3.0
+opencv-python==4.8.1.78
+numpy==1.26.4
+beautifulsoup4==4.12.3
+pywin32==306
+xhshow==0.2.0

@@ -1,0 +1,416 @@
+/* Colleges Database, Pitfalls & Table Styles */
+#colleges-view {
+    /* display managed by layout.css */
+    flex-direction: column;
+    padding: 24px 30px 40px 30px;
+    gap: 16px;
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Crucial: Prevent flexbox from squishing items! */
+.intel-collapsible-card,
+.miniapp-section,
+.pitfall-banner,
+.filter-bar,
+.college-table-wrapper,
+.pagination-bar {
+    flex-shrink: 0 !important;
+}
+
+/* Collapsible Intel / Pitfall Card */
+.intel-collapsible-card {
+    background: rgba(30, 41, 59, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.intel-toggle-bar {
+    padding: 12px 18px;
+    background: rgba(30, 41, 59, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s;
+}
+
+.intel-toggle-bar:hover {
+    background: rgba(51, 65, 85, 0.6);
+}
+
+.intel-title-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: #f1f5f9;
+}
+
+.badge-tip {
+    font-size: 0.72rem;
+    background: rgba(6, 182, 212, 0.15);
+    color: var(--accent-cyan);
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.btn-intel-toggle {
+    background: #1e293b;
+    color: #cbd5e1;
+    border: 1px solid #334155;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-intel-toggle:hover {
+    background: #334155;
+    color: var(--accent-cyan);
+    border-color: var(--accent-cyan);
+}
+
+.intel-body {
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.intel-collapsible-card.collapsed .intel-body {
+    display: none;
+}
+
+.pitfall-banner {
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.12), rgba(245, 158, 11, 0.12));
+    border: 1px solid rgba(244, 63, 94, 0.25);
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pitfall-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #fca5a5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pitfalls-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.pitfall-box {
+    background: rgba(15, 23, 42, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+
+.pitfall-box h5 {
+    font-size: 0.82rem;
+    color: #fdba74;
+    margin-bottom: 5px;
+}
+
+.pitfall-box p {
+    font-size: 0.74rem;
+    color: #cbd5e1;
+    line-height: 1.45;
+}
+
+.miniapp-section {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(6, 182, 212, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.25);
+    border-radius: 10px;
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniapp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniapp-header h4 {
+    font-size: 0.88rem;
+    color: #6ee7b7;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.miniapp-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    font-size: 0.75rem;
+    color: #cbd5e1;
+    line-height: 1.45;
+}
+
+.miniapp-step-card {
+    background: rgba(15, 23, 42, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+
+.miniapp-step-card strong {
+    color: var(--accent-cyan);
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* Filter Bar */
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 10px 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.filter-pills {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    background: #1e293b;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 6px 13px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.filter-btn:hover {
+    color: var(--text-primary);
+    border-color: #64748b;
+}
+
+.filter-btn.active {
+    background: rgba(59, 130, 246, 0.22);
+    color: var(--accent-cyan);
+    border-color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+.search-box {
+    background: #0b1120;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: white;
+    font-size: 0.8rem;
+    width: 250px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.search-box:focus {
+    border-color: var(--accent-cyan);
+}
+
+/* College Table with Left Sticky Column & Natural Page Scroll */
+.college-table-wrapper {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow-x: auto;
+    overflow-y: visible;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: #475569 #0f172a;
+}
+
+.college-table-wrapper::-webkit-scrollbar {
+    height: 6px;
+}
+
+.college-table-wrapper::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 3px;
+}
+
+.college-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-cyan);
+}
+
+.college-table-wrapper::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.6);
+}
+
+table.college-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.82rem;
+    text-align: left;
+}
+
+table.college-table th {
+    background: #1e293b;
+    color: #94a3b8;
+    padding: 12px 14px;
+    font-weight: 600;
+    border-bottom: 2px solid var(--accent-cyan);
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+table.college-table td {
+    padding: 13px 14px;
+    border-bottom: 1px solid rgba(51, 65, 85, 0.6);
+    color: #e2e8f0;
+    line-height: 1.5;
+    background: inherit;
+}
+
+table.college-table tbody tr {
+    background: #111a2e;
+    transition: background 0.15s ease;
+}
+
+table.college-table tbody tr:nth-child(even) {
+    background: #0f172a;
+}
+
+table.college-table tbody tr:hover {
+    background: #1e293b !important;
+}
+
+/* LEFT STICKY FROZEN COLUMN (院校名称永远保持可见) */
+table.college-table th:first-child,
+table.college-table td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 8;
+    min-width: 220px;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.45);
+}
+
+table.college-table th:first-child {
+    z-index: 12;
+    background: #1e293b !important;
+}
+
+table.college-table tbody tr td:first-child {
+    background: #152033;
+}
+
+table.college-table tbody tr:nth-child(even) td:first-child {
+    background: #111927;
+}
+
+table.college-table tbody tr:hover td:first-child {
+    background: #1e2e47 !important;
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.tag-c9 { background: rgba(239, 68, 68, 0.22); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); }
+.tag-985 { background: rgba(139, 92, 246, 0.22); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.4); }
+.tag-211 { background: rgba(59, 130, 246, 0.22); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); }
+.tag-double { background: rgba(16, 185, 129, 0.22); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+
+.tag-nodorm { background: rgba(244, 63, 94, 0.22); color: #fb7185; font-weight: 700; border: 1px solid rgba(244, 63, 94, 0.4); }
+.tag-dorm { background: rgba(16, 185, 129, 0.18); color: #a7f3d0; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+.official-link {
+    color: var(--accent-cyan);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+}
+
+.official-link:hover {
+    text-decoration: underline;
+    color: #38bdf8;
+}
+
+/* Pagination Bar */
+.pagination-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.pagination-btns {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.page-btn {
+    background: #1e293b;
+    color: #cbd5e1;
+    border: 1px solid var(--border-color);
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.78rem;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.page-btn:hover:not(:disabled) {
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+}
+
+.page-btn.active {
+    background: rgba(6, 182, 212, 0.25);
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+    font-weight: bold;
+}
+
+.page-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}

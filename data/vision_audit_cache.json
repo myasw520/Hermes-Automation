@@ -1,0 +1,614 @@
+{
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\celeron533_Stealth\\img_01.png": {
+    "mtime": "1792940570.130438",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "窗口管理功能",
+      "suggested_caption": "图：软件窗口管理界面，显示多个程序状态",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\celeron533_Stealth\\img_02.png": {
+    "mtime": "1792940574.900988",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "软件设置面板与版本信息",
+      "suggested_caption": "图：Stealth软件的设置面板与版本信息",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Aafff623_pane\\img_04.png": {
+    "mtime": "1792941450.336231",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "总花费和使用情况统计",
+      "suggested_caption": "图：软件界面显示总花费和使用情况",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Aafff623_pane\\img_05.png": {
+    "mtime": "1792941458.3245864",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "总花费和各项目时间统计",
+      "suggested_caption": "图：显示总花费及各项目的使用时间统计界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\ahnafnafee_local-llm-pdf-ocr\\img_02.png": {
+    "mtime": "1792942227.146141",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "可上传文件生成可搜索PDF",
+      "suggested_caption": "图：软件界面展示可上传文件生成可搜索PDF功能",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\ahnafnafee_local-llm-pdf-ocr\\img_03.png": {
+    "mtime": "1792942233.3286278",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "可搜索的PDF功能界面",
+      "suggested_caption": "图：可搜索PDF的界面，支持多种文件格式。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\AlexanderPro_SmartContextMenu\\img_02.png": {
+    "mtime": "1792941012.7765317",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "Notepad菜单选项",
+      "suggested_caption": "图：Notepad软件的菜单选项界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\AlexanderPro_SmartContextMenu\\img_03.png": {
+    "mtime": "1792941019.0219421",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "Notepad系统菜单功能",
+      "suggested_caption": "图：Notepad软件的系统菜单功能界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Aseiel_VideoHighlighter\\img_01.png": {
+    "mtime": "1792942110.8174946",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "视频高亮工具的基本设置界面",
+      "suggested_caption": "图：视频高亮工具的基本设置界面，包含评分点设置。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Aseiel_VideoHighlighter\\img_02.png": {
+    "mtime": "1792942126.2715983",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "视频编辑软件的时间线界面",
+      "suggested_caption": "图：视频编辑软件的时间线和视觉搜索功能界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Aseiel_VideoHighlighter\\img_03.png": {
+    "mtime": "1792942128.6378102",
+    "result": {
+      "is_genuine_software_ui": false,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "GitHub Stars增长趋势图",
+      "suggested_caption": "图：GitHub项目Aseiel/VideoHighlighter的星标增长趋势",
+      "rejection_reason": null,
+      "is_approved": false
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\bigfish1913_pi-rust\\img_01.png": {
+    "mtime": "1792942523.5138452",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "交互式终端界面",
+      "suggested_caption": "图：展示交互式终端界面的操作界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\bigfish1913_pi-rust\\img_02.gif": {
+    "mtime": "1792942529.4360394",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "代码编辑器界面",
+      "suggested_caption": "图：代码编辑器显示代码和文件结构",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\dadwritestech_LlamaForge\\img_01.png": {
+    "mtime": "1792942245.3733513",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "GPU使用情况和模型注册信息",
+      "suggested_caption": "图：显示NVIDIA显卡使用情况和模型注册界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\dadwritestech_LlamaForge\\img_02.png": {
+    "mtime": "1792942248.6208987",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "GPU使用情况和性能统计",
+      "suggested_caption": "图：显示NVIDIA显卡的使用情况和性能统计界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\dadwritestech_LlamaForge\\img_03.png": {
+    "mtime": "1792942252.2614596",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "软件模型发现界面",
+      "suggested_caption": "图：LlamaForge软件的模型发现界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\dadwritestech_LlamaForge\\img_04.png": {
+    "mtime": "1792942254.6061018",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "软件更新界面",
+      "suggested_caption": "图：LLAMA.FORGE软件的构建与更新界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\DarkCoderSc_PowerRunAsSystem\\img_01.png": {
+    "mtime": "1792941261.6558115",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "Windows PowerShell命令行界面",
+      "suggested_caption": "图：Windows PowerShell界面显示用户信息与命令",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\DarkCoderSc_PowerRunAsSystem\\img_03.png": {
+    "mtime": "1792941273.3208978",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "PowerShell用户身份仿冒功能",
+      "suggested_caption": "图：PowerShell中用户身份仿冒的操作界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\DarkCoderSc_PowerRunAsSystem\\img_04.png": {
+    "mtime": "1792941280.3426034",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "PowerShell用户身份信息",
+      "suggested_caption": "图：PowerShell界面显示当前用户身份信息",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\dccif_KeySteer\\img_01.webp": {
+    "mtime": "1792940746.4504957",
+    "result": {
+      "is_genuine_software_ui": false,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "无具体软件界面或功能",
+      "suggested_caption": "图：KeySteer软件Logo图标",
+      "rejection_reason": "正方形Logo图标",
+      "is_approved": false
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\echoVic_orca-agent\\img_01.gif": {
+    "mtime": "1792942665.0041556",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "终端窗口输入命令",
+      "suggested_caption": "图：终端窗口显示命令输入界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\FileMintApp_FileMint\\img_02.png": {
+    "mtime": "1792940959.512892",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "文件操作菜单",
+      "suggested_caption": "图：文件操作菜单界面，包含多项功能选项。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Gaurox_FrameShift\\img_01.gif": {
+    "mtime": "1792941112.1771894",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "文件管理器界面",
+      "suggested_caption": "图：文件管理器显示音频和视频文件",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\haithamaouati_BW11\\img_01.jpeg": {
+    "mtime": "1792941244.206017",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "Windows 11系统要求绕过菜单",
+      "suggested_caption": "图：Windows 11系统要求绕过工具的主菜单界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\icflorescu_mantine-contextmenu\\img_02.png": {
+    "mtime": "1792941215.2248125",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "数据表格操作界面",
+      "suggested_caption": "图：显示用户数据的操作界面与功能",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\imengyu_vue3-context-menu\\img_01.png": {
+    "mtime": "1792940978.175431",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "浏览器菜单和子菜单",
+      "suggested_caption": "图：浏览器的下拉菜单及其子菜单选项",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\imengyu_vue3-context-menu\\img_02.jpg": {
+    "mtime": "1792940979.9098258",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "浏览器上下文菜单",
+      "suggested_caption": "图：浏览器的上下文菜单示例",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\imengyu_vue3-context-menu\\img_03.jpg": {
+    "mtime": "1792940982.3557856",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "浏览器菜单操作界面",
+      "suggested_caption": "图：浏览器的子菜单操作界面示例",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Jamminroot_intag\\img_04.png": {
+    "mtime": "1792940594.8833327",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "文件夹结构展示",
+      "suggested_caption": "图：显示软件项目的文件夹结构与分类",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Jamminroot_intag\\img_05.png": {
+    "mtime": "1792940596.3217885",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "软件属性设置界面",
+      "suggested_caption": "图：InTag软件的属性设置界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\Jamminroot_intag\\img_06.png": {
+    "mtime": "1792940598.5272563",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "文件夹管理界面",
+      "suggested_caption": "图：文件夹管理界面，显示标签和属性选项。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\jarczakpawel_BMCU-Flasher\\img_01.jpg": {
+    "mtime": "1792940579.827338",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "BMCU固件更新界面",
+      "suggested_caption": "图：BMCU Flasher固件更新操作界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\jens-duttke_usage-monitor-for-claude\\img_01.png": {
+    "mtime": "1792941514.0334032",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "使用监控界面",
+      "suggested_caption": "图：显示Claude使用监控的界面与功能",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\K3V1991_ADB-and-FastbootPlusPlus\\img_02.png": {
+    "mtime": "1792940545.1047425",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "软件安装许可协议界面",
+      "suggested_caption": "图：ADB与Fastboot++软件安装许可协议界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\K3V1991_ADB-and-FastbootPlusPlus\\img_03.png": {
+    "mtime": "1792940549.8460586",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "安装ADB & Fastboot++的设置界面",
+      "suggested_caption": "图：ADB & Fastboot++安装过程中的额外任务选择界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\K3V1991_ADB-and-FastbootPlusPlus\\img_04.png": {
+    "mtime": "1792940551.992773",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "ADB & Fastboot++安装向导界面",
+      "suggested_caption": "图：ADB & Fastboot++安装向导的设置界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\LeanBitLab_LeanType\\img_02.png": {
+    "mtime": "1792942089.9731653",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "LeanType设置界面",
+      "suggested_caption": "图：LeanType应用的设置界面，包含多项功能选项。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\LeanBitLab_LeanType\\img_03.png": {
+    "mtime": "1792942096.7032528",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "语音输入设置界面",
+      "suggested_caption": "图：语音输入功能的设置界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\LeanBitLab_LeanType\\img_04.png": {
+    "mtime": "1792942103.7153244",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "文本识别设置界面",
+      "suggested_caption": "图：文本识别设置界面，包含权限和格式选项。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\leemysw_yovoice\\img_01.png": {
+    "mtime": "1792942137.3478613",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "语音生成设置界面",
+      "suggested_caption": "图：语音生成软件的设置界面与功能展示。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\leemysw_yovoice\\img_03.png": {
+    "mtime": "1792942144.976019",
+    "result": {
+      "is_genuine_software_ui": false,
+      "contains_ad_or_qr": true,
+      "visual_clarity": "high",
+      "actual_feature_detected": "微信群二维码",
+      "suggested_caption": "图：微信群聊二维码，扫码加入群聊。",
+      "rejection_reason": "包含微信群二维码",
+      "is_approved": false
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\linuztx_alter-zero\\img_01.gif": {
+    "mtime": "1792942293.4924743",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "终端窗口操作界面",
+      "suggested_caption": "图：终端窗口中安装vim的操作界面",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\linuztx_alter-zero\\img_02.jpg": {
+    "mtime": "1792942299.0291626",
+    "result": {
+      "is_genuine_software_ui": false,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "虚拟角色与背景",
+      "suggested_caption": "图：虚拟角色与科技背景的艺术插图",
+      "rejection_reason": "纯宣传Banner无UI",
+      "is_approved": false
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\lulu-loopp_folio-terminal\\img_01.png": {
+    "mtime": "1792940796.0975313",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "命令行界面显示文本",
+      "suggested_caption": "图：命令行界面展示高斯分布相关内容",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\lulu-loopp_folio-terminal\\img_02.png": {
+    "mtime": "1792940802.547454",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "文件目录和代码示例",
+      "suggested_caption": "图：显示Aurora软件的文件结构和代码示例",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\lulu-loopp_folio-terminal\\img_03.png": {
+    "mtime": "1792940806.2507823",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "软件设置面板",
+      "suggested_caption": "图：软件的设置界面，包含多个功能选项。",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\mnemosyne-systems_orangu\\img_02.png": {
+    "mtime": "1792942676.391092",
+    "result": {
+      "is_genuine_software_ui": false,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "软件架构图示",
+      "suggested_caption": "图：展示了Orangu Stack的架构与功能模块。",
+      "rejection_reason": null,
+      "is_approved": false
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\momori777_Artemis\\img_01.gif": {
+    "mtime": "1792942051.530226",
+    "result": {
+      "is_genuine_software_ui": true,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "medium",
+      "actual_feature_detected": "软件界面中的输出结果",
+      "suggested_caption": "图：软件界面展示了输出结果的功能",
+      "rejection_reason": null,
+      "is_approved": true
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\momori777_Artemis\\img_04.gif": {
+    "mtime": "1792942078.1272008",
+    "result": {
+      "is_genuine_software_ui": false,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "low",
+      "actual_feature_detected": "空白窗口",
+      "suggested_caption": "图：显示空白窗口的操作界面",
+      "rejection_reason": "纯宣传Banner无UI",
+      "is_approved": false
+    }
+  },
+  "C:\\Users\\zzx05\\Hermes-Automation\\reports\\niche_gems\\assets\\neiii_bridle\\img_01.png": {
+    "mtime": "1792942473.905734",
+    "result": {
+      "is_genuine_software_ui": false,
+      "contains_ad_or_qr": false,
+      "visual_clarity": "high",
+      "actual_feature_detected": "无软件界面或功能",
+      "suggested_caption": "图：一匹马的雕像上涂鸦与文字",
+      "rejection_reason": "纯宣传Banner无UI",
+      "is_approved": false
+    }
+  }
+}

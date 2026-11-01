@@ -1,0 +1,24 @@
+# Security and Credentials
+config/xhs_cookies.json
+config/credentials.json
+*_profile/
+chrome_user_data/
+*.zip
+*.log
+.env
+
+# Plaintext key pool & runtime state (daemon-managed, not for VCS)
+config/keys_pool.json
+config/scheduler_state.json
+config/alerted_comments.json
+services/pushed_history.json
+
+# Heavy / regenerable outputs
+reports/
+__pycache__/
+*.pyc
+.DS_Store
+config/hermes_channel.json
+# Secret-rotation guide contains old plaintext values on purpose; keep local-only
+docs/SECRET-HANDLING.md
+# Tailscale network topology note (local-only)

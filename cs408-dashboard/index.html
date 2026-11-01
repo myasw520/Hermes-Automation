@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>408 计算机考研全景知识图谱与院校择校智库 (工程化模块版)</title>
+
+    <!-- Modular CSS -->
+
+    <link rel="stylesheet" href="css/base.css">
+
+    <link rel="stylesheet" href="css/layout.css">
+
+    <link rel="stylesheet" href="css/graph.css">
+
+    <link rel="stylesheet" href="css/colleges.css">
+
+</head>
+
+<body>
+
+<!-- Sidebar -->
+
+    <div class="sidebar">
+
+        <div class="logo-box">
+
+            <div class="logo-badge">408</div>
+
+            <div class="logo-text">
+
+                <h2>计算机考研智库</h2>
+
+                <p>AI脱敏·逐年权威数据库</p>
+
+            </div>
+
+        </div>
+
+        <div class="nav-menu">
+
+            <div class="nav-item active" onclick="switchTab('graph')">
+
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+
+                动态知识图谱
+
+            </div>
+
+            <div class="nav-item" onclick="switchTab('colleges')">
+
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5m-4 0h4"/></svg>
+
+                🏫 院校数据库与逐年线
+
+            </div>
+
+            <div class="nav-item" onclick="switchTab('strategy')">
+
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+
+                分值权重与规划
+
+            </div>
+
+            <div class="nav-item" onclick="switchTab('matheng')">
+
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+
+                📐 公共课考纲(11vs22)
+
+            </div>
+
+            <div class="nav-item" onclick="switchTab('templates')">
+
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+
+                高频代码与PV模板
+
+            </div>
+
+        </div>
+
+        <div class="obsidian-card">
+
+            <h4>Obsidian 本地双链库</h4>
+
+            <p>桌面已生成快捷方式：<strong>Obsidian.lnk</strong></p>
+
+            <button class="btn-launch" onclick="alert('桌面已创建『Obsidian.lnk』快捷方式！直接双击桌面图标即可打开完整双链知识库与画布！')">查看桌面快捷方式</button>
+
+        </div>
+
+    </div>
+
+    <!-- Main Workspace -->
+
+    <div class="main-content">
+
+        <div class="topbar">
+
+            <div class="topbar-title">
+
+                <span id="tab-title">408 知识全景拓扑图</span>
+
+                <span class="badge-score" id="tab-badge">总分 150 分 · 统考代码 408</span>
+
+                <span class="badge-date" id="tab-date">采集时间：2026-10-21</span>
+
+            </div>
+
+            <div style="font-size: 0.8rem; color: #94a3b8;" id="tab-meta">
+
+                覆盖年份：2023、2024、2025 届真实数据 & 2026 最新招生简章
+
+            </div>
+
+        </div>
+
+        <!-- 1. Interactive Graph View -->
+
+        <div id="graph-view" class="view-panel active">
+
+            <canvas id="graph-canvas"></canvas>
+
+            <!-- Floating HUD Tools -->
+
+            <div class="graph-hud-toolbar" id="graph-hud">
+
+                <button class="graph-hud-btn" onclick="zoomIn()" title="放大 (快捷键 +)">
+
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+
+                    放大
+
+                </button>
+
+                <button class="graph-hud-btn" onclick="zoomOut()" title="缩小 (快捷键 -)">
+
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/></svg>
+
+                    缩小
+
+                </button>
+
+                <button class="graph-hud-btn" onclick="fitToScreen(true)" title="全景自适应居中 (快捷键 0 / 空格)">
+
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+
+                    全景居中
+
+                </button>
+
+                <button class="graph-hud-btn" onclick="resetGraphView()" title="重置视角">
+
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+
+                    重置
+
+                </button>
+
+                <button class="graph-hud-btn" id="btn-wheel-mode" onclick="toggleWheelMode()" title="切换滚轮功能">
+
+                    <span id="wheel-mode-text">滚轮: 缩放</span>
+
+                </button>
+
+                <button class="graph-hud-btn" onclick="toggleDrawer()" id="btn-drawer-collapse" title="收起/展开侧边栏">
+
+                    <span id="drawer-btn-label">收起侧栏</span>
+
+                </button>
+
+            </div>
+
+            <!-- Floating Controls (Search & Category filters) -->
+
+            <div class="graph-controls">
+
+                <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+
+                    <input type="text" id="graph-search" placeholder="🔍 检索考点 (如: Cache, PV, 快排, 拥塞控制)..." 
+
+                           style="background:#0b1120; border:1px solid #475569; color:#f8fafc; padding:6px 12px; border-radius:6px; font-size:0.78rem; width:260px; outline:none;" 
+
+                           oninput="filterGraphSearch(this.value)">
+
+                    <span style="font-size:0.74rem; color:#94a3b8; display:flex; align-items:center; gap:6px;">
+
+                        <span>💡 拖拽平移 · 滚轮缩放 · 方向键微调 · 双击居中</span>
+
+                    </span>
+
+                </div>
+
+                <div style="display:flex; gap:8px; font-size:0.75rem; flex-wrap:wrap;">
+
+                    <div class="filter-pill-item active" onclick="filterGraphCategory('all', this)"><span class="badge-legend" style="background:#38bdf8;"></span>全考纲拓扑</div>
+
+                    <div class="filter-pill-item" onclick="filterGraphCategory('ds', this)"><span class="badge-legend" style="background:#3b82f6;"></span>数据结构 (45分)</div>
+
+                    <div class="filter-pill-item" onclick="filterGraphCategory('coa', this)"><span class="badge-legend" style="background:#8b5cf6;"></span>组成原理 (45分)</div>
+
+                    <div class="filter-pill-item" onclick="filterGraphCategory('os', this)"><span class="badge-legend" style="background:#10b981;"></span>操作系统 (35分)</div>
+
+                    <div class="filter-pill-item" onclick="filterGraphCategory('cn', this)"><span class="badge-legend" style="background:#f59e0b;"></span>计算机网络 (25分)</div>
+
+                    <div class="filter-pill-item" onclick="filterGraphCategory('cross', this)"><span class="badge-legend" style="background:#f43f5e;"></span>跨学科贯通 (7条)</div>
+
+                </div>
+
+            </div>
+
+            <!-- Minimap -->
+
+            <div class="minimap-panel" id="minimap-panel">
+
+                <div class="minimap-header">
+
+                    <span>🧭 鹰眼全景导航</span>
+
+                    <span style="font-size:0.65rem; color:#64748b;">点击/拖拽定位</span>
+
+                </div>
+
+                <canvas id="minimap-canvas" width="156" height="105"></canvas>
+
+            </div>
+
+            <!-- Detail Drawer -->
+
+            <div class="detail-drawer" id="detail-drawer">
+
+                <button class="drawer-toggle-btn" onclick="toggleDrawer()" title="折叠/展开详情面板">
+
+                    <svg id="drawer-toggle-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+
+                </button>
+
+                <div class="drawer-header">
+
+                    <span class="drawer-title" id="drawer-node-name">点击任意节点查看详情</span>
+
+                </div>
+
+                <div class="drawer-content" id="drawer-node-body">
+
+                    <p>拖动画布进行平移，使用滚轮缩放。</p>
+
+                    <p style="margin-top: 10px;">点击图谱中的任意专业课核心考点，即可查看对应复习要点、命题陷阱及大题避坑策略。</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 2. Colleges & Pitfalls View (WITH YEAR-BY-YEAR DATA & MINIAPP GUIDE) -->
+
+        <div id="colleges-view" class="view-panel">
+
+            <!-- Collapsible Guide & Intel Card -->
+
+            <div class="intel-collapsible-card" id="intel-card">
+
+                <div class="intel-toggle-bar" onclick="toggleIntelCard()">
+
+                    <div class="intel-title-left">
+
+                        <span style="font-size:1.1rem;">💡</span>
+
+                        <strong>计算机考研小白必读避坑红宝书 & 研招小程序数据机制</strong>
+
+                        <span class="badge-tip">4 大断层陷阱 · 小程序数据抓取指南</span>
+
+                    </div>
+
+                    <button class="btn-intel-toggle" id="intel-toggle-btn">收起指南 ▴</button>
+
+                </div>
+
+                <div class="intel-body" id="intel-body">
+
+                    <!-- Mini-app Data Acquisition Guide -->
+
+                    <div class="miniapp-section">
+
+                        <div class="miniapp-header">
+
+                            <h4>
+
+                                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+
+                                关于“考研小程序”更细粒度数据（一分一段表/真实拟录取各科分）的获取机制
+
+                            </h4>
+
+                            <span style="font-size: 0.75rem; color: #34d399;">Hermes 自动化抓取方案已就绪</span>
+
+                        </div>
+
+                        <div class="miniapp-steps">
+
+                            <div class="miniapp-step-card">
+
+                                <strong>1. 小程序数据源从何而来？</strong>
+
+                                主流考研小程序（掌上考研、王道考研、灰灰考研）的数据由三部分构成：①高校研究生院每年春季仅公示7天的《拟录取公示PDF/Excel》存档；②考研查分季几十万考生的真实自愿晒分；③研招网公开接口。
+
+                            </div>
+
+                            <div class="miniapp-step-card">
+
+                                <strong>2. Hermes 能否自动化获取小程序数据？</strong>
+
+                                <strong>完全可以！</strong>PC微信运行小程序时由 <code>WeChatAppEx.exe</code> 发送标准 HTTPS REST API。我们可在本地配合 mitmproxy 或代理拦截其签名参数与 Token，编写脚本全量提取小程序端内部的一分一段表与历年报录比。
+
+                            </div>
+
+                            <div class="miniapp-step-card">
+
+                                <strong>3. 更加原生权威的 Web 镜像替代方案：</strong>
+
+                                95% 的小程序在 Web 端都有免登录公开镜像（如研招网公开专业目录平台、中国教育在线考研数据库、各校计院官网历史通告归档）。当前已为你把核验出处精确到具体官网。
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Beginner Pitfalls -->
+
+                    <div class="pitfall-banner">
+
+                        <div class="pitfall-title">
+
+                            <span>⚠️ 计算机考研小白必读：4 大致命“认知陷阱”避坑红宝书</span>
+
+                            <span style="font-size: 0.72rem; color: #fca5a5; font-weight: normal;">数据采集时间：2026年10月21日 · 权威研招网对齐</span>
+
+                        </div>
+
+                        <div class="pitfalls-grid">
+
+                            <div class="pitfall-box">
+
+                                <h5>1. 复试线 ≠ 录取线（断层陷阱）</h5>
+
+                                <p>院线只是入围线！因差额复试比（120%-150%），真实录取最低分/中位数往往比复试线高出 <strong>25~45分</strong>！目标初试分务必参考拟录取名单。</p>
+
+                            </div>
+
+                            <div class="pitfall-box">
+
+                                <h5>2. 招生计划 ≠ 统考名额（推免陷阱）</h5>
+
+                                <p>简章写招100人，顶尖985推免率高达 <strong>70%~80%</strong>，实际留给统考仅10~20人！务必在研招网查阅《拟录取推免生名单》扣除推免。</p>
+
+                            </div>
+
+                            <div class="pitfall-box">
+
+                                <h5>3. 专硕住宿政策黑洞（经济陷阱）</h5>
+
+                                <p>清华深研院、北大、复旦、南开等高校<strong>专硕已明确不提供校内宿舍</strong>！一线城市校外租房每年额外支出 3~5 万元，报考前必须算清账。</p>
+
+                            </div>
+
+                            <div class="pitfall-box">
+
+                                <h5>4. 408 统考调剂优势（退路陷阱）</h5>
+
+                                <p>考408统考是<strong>全网通调剂</strong>，绝大多数院校接受408调剂；若选自命题，不仅高校改考408无法调剂，压分自命题更直接断送调剂生路。</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Filters -->
+
+            <div class="filter-bar">
+
+                <div class="filter-pills">
+                    <button class="filter-btn active" onclick="filterColleges('all', this)">全部标杆</button>
+                    <button class="filter-btn" onclick="filterColleges('jzh', this)" style="border-color:#38bdf8; color:#38bdf8;">📍 江浙沪精选 (保宿/常规学费)</button>
+                    <button class="filter-btn" onclick="filterColleges('med', this)" style="border-color:#10b981; color:#10b981;">🧬 医工交叉/中医药黄金赛道</button>
+                    <button class="filter-btn" onclick="filterColleges('211', this)">高性价比211</button>
+                    <button class="filter-btn" onclick="filterColleges('double', this)">优质双非/就业名门</button>
+                    <button class="filter-btn" onclick="filterColleges('c9', this)">顶级C9/985</button>
+                </div>
+                <input type="text" class="search-box" id="college-search" placeholder="🔍 搜索院校名称 / 专业代码 (如 085404) / 城市..." oninput="searchColleges()">
+
+            </div>
+
+            <!-- College Table with Exact Years -->
+
+            <div class="college-table-wrapper">
+
+                <table class="college-table" id="college-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>院校名称与层次</th>
+
+                            <th>专业课科目</th>
+
+                            <th>2023年复试/实际录取线</th>
+
+                            <th>2024年复试/实际录取线</th>
+
+                            <th>2025年复试/实际录取线</th>
+
+                            <th>专硕学费</th>
+
+                            <th>专硕住宿</th>
+
+                            <th>报录比</th>
+
+                            <th>2026简章公布</th>
+
+                            <th>官方权威数据出处</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="college-tbody">
+
+                        <!-- Populated by JS -->
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <!-- Table Pagination Bar & Dynamic Counter -->
+
+            <div class="pagination-bar" id="pagination-bar">
+
+                <span id="college-counter">加载中...</span>
+
+                <div class="pagination-btns"></div>
+
+            </div>
+
+        </div>
+
+        <!-- 3. Strategy & Weight View -->
+
+        <div id="strategy-view" class="view-panel">
+
+            <div class="cards-grid">
+
+                <div class="stat-card card-ds">
+
+                    <div class="stat-title">数据结构与算法</div>
+
+                    <div class="stat-value" style="color:var(--accent-blue);">45 <span style="font-size:1rem;font-weight:400;">分 (30%)</span></div>
+
+                    <div class="stat-desc">重点在第41题算法大题（双指针/树/哈希），要求手写规范C/C++代码，并严格给出时间与空间复杂度。</div>
+
+                </div>
+
+                <div class="stat-card card-coa">
+
+                    <div class="stat-title">计算机组成原理</div>
+
+                    <div class="stat-value" style="color:var(--accent-purple);">45 <span style="font-size:1rem;font-weight:400;">分 (30%)</span></div>
+
+                    <div class="stat-desc">408硬件核心底座。重点在指令系统、CPU流水线数据通路、Cache与主存映射及虚拟存储。</div>
+
+                </div>
+
+                <div class="stat-card card-os">
+
+                    <div class="stat-title">操作系统原理</div>
+
+                    <div class="stat-value" style="color:var(--accent-green);">35 <span style="font-size:1rem;font-weight:400;">分 (23.3%)</span></div>
+
+                    <div class="stat-desc">重点在PV信号量同步互斥经典模型（生产者消费者、读写者等）以及分页/分段内存管理。</div>
+
+                </div>
+
+                <div class="stat-card card-net">
+
+                    <div class="stat-title">计算机网络</div>
+
+                    <div class="stat-value" style="color:var(--accent-amber);">25 <span style="font-size:1rem;font-weight:400;">分 (16.7%)</span></div>
+
+                    <div class="stat-desc">抓大放小：重点吃透网络层（IP/CIDR/路由算法）与传输层（TCP三次握手四次挥手、拥塞控制）。</div>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-container">
+
+                <h3 style="margin-bottom: 20px; font-size: 1.1rem; color: var(--accent-cyan);">📅 408 黄金备考四季节奏图谱</h3>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker">1</div>
+
+                    <div class="timeline-body">
+
+                        <h4>基础地基阶段（3月 - 6月）</h4>
+
+                        <p>通读王道单科辅导书 + 课后选择题精刷。重点攻克数据结构线性表/二叉树与计组二进制补码运算。每天坚持手写基础代码。</p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker">2</div>
+
+                    <div class="timeline-body">
+
+                        <h4>强化打通阶段（7月 - 9月）</h4>
+
+                        <p>跨学科融会贯通：将计组的Cache/主存与操作系统的虚拟内存对比学习；将操作系统的Socket与计网传输层串联。开始单科大题专项突破。</p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker">3</div>
+
+                    <div class="timeline-body">
+
+                        <h4>真题攻坚阶段（10月 - 11月）</h4>
+
+                        <p>全真模拟近15年408统考真题（2009-2025）。严格按照下午2:00-5:00三个小时全封闭答题，建立错题集与大题解题模板库。</p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker">4</div>
+
+                    <div class="timeline-body">
+
+                        <h4>考前冲刺阶段（12月）</h4>
+
+                        <p>背诵默写41题算法解题思路与时空复杂度模板；背诵PV操作信号量声明规范；查漏补缺网络协议端口与首部格式细节。</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 5. Math & English Syllabus View (NEW!) -->
+
+        <div id="matheng-view" class="view-panel" style="flex-direction:column; padding:25px 30px; gap:20px; width:100%;">
+
+            <!-- Decision Banner -->
+
+            <div style="background:linear-gradient(135deg, rgba(59,130,246,0.15), rgba(139,92,246,0.15)); border:1px solid rgba(59,130,246,0.3); border-radius:12px; padding:20px; display:flex; flex-direction:column; gap:12px;">
+
+                <div style="font-size:1.05rem; font-weight:700; color:#93c5fd; display:flex; justify-content:space-between; align-items:center;">
+
+                    <span>⚖️ 计算机考研公共课抉择：选“11 (数一+英一)” 还是 “22 (数二+英二)”？</span>
+
+                    <span style="font-size:0.75rem; background:rgba(59,130,246,0.25); color:#bfdbfe; padding:2px 8px; border-radius:4px;">官方大纲对齐</span>
+
+                </div>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px; font-size:0.82rem; line-height:1.6;">
+
+                    <div style="background:rgba(15,23,42,0.6); padding:14px; border-radius:8px; border:1px solid rgba(255,255,255,0.06);">
+
+                        <strong style="color:#f87171; font-size:0.9rem; display:block; margin-bottom:6px;">方案 A：选考“11 (数一 + 英一)” —— 适合学硕/直博</strong>
+
+                        <ul style="padding-left:18px; color:#cbd5e1;">
+
+                            <li><strong>考查范围</strong>：高数(56%) + 线代(22%) + 概率论(22%)。全大纲覆盖，含三重积分、曲线曲面积分、无穷级数。</li>
+
+                            <li><strong>复习工作量</strong>：约为数二英二的 <strong>1.6 ~ 1.8 倍</strong>，需投入极多时间死磕高数生僻章节。</li>
+
+                            <li><strong>调剂优势</strong>：<strong>高调低霸权</strong>。初试考数一英一者，调剂时可单向申请要求数二英二的专硕院校。</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div style="background:rgba(15,23,42,0.6); padding:14px; border-radius:8px; border:1px solid rgba(255,255,255,0.06);">
+
+                        <strong style="color:#34d399; font-size:0.9rem; display:block; margin-bottom:6px;">方案 B：选考“22 (数二 + 英二)” —— 【小白首选黄金组合】</strong>
+
+                        <ul style="padding-left:18px; color:#cbd5e1;">
+
+                            <li><strong>考查范围</strong>：高数(78%) + 线代(22%)。<strong>彻底不考概率论</strong>！砍掉三重积分、曲线曲面积分、级数。</li>
+
+                            <li><strong>复习工作量</strong>：公共课省下数百小时，能够腾出核心战略时间死磕 408 统考与做题。</li>
+
+                            <li><strong>性价比</strong>：专硕招考名额占全国 80% 以上，找大厂工作和待遇与学硕完全一致。</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Math Comparison Table -->
+
+            <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:12px; padding:20px;">
+
+                <h4 style="color:var(--accent-cyan); font-size:0.95rem; margin-bottom:12px;">📊 数学一 vs 数学二 高等数学大纲考查范围差异清单</h4>
+
+                <table style="width:100%; border-collapse:collapse; font-size:0.8rem; text-align:left;">
+
+                    <thead>
+
+                        <tr style="background:#1e293b; color:#94a3b8;">
+
+                            <th style="padding:10px 14px;">微积分考点章节</th>
+
+                            <th style="padding:10px 14px;">数学一 (301)</th>
+
+                            <th style="padding:10px 14px;">数学二 (302)</th>
+
+                            <th style="padding:10px 14px;">复习难度与考法提醒</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr style="border-bottom:1px solid #334155;">
+
+                            <td style="padding:10px 14px;"><strong>极限、导数与一元微积分</strong></td>
+
+                            <td style="padding:10px 14px; color:#38bdf8;">必考</td>
+
+                            <td style="padding:10px 14px; color:#38bdf8;">必考</td>
+
+                            <td style="padding:10px 14px; color:#94a3b8;">两者完全一致，数二在定积分物理应用（引力/做功）考查更深</td>
+
+                        </tr>
+
+                        <tr style="border-bottom:1px solid #334155;">
+
+                            <td style="padding:10px 14px;"><strong>多元函数偏导与二重积分</strong></td>
+
+                            <td style="padding:10px 14px; color:#38bdf8;">必考</td>
+
+                            <td style="padding:10px 14px; color:#38bdf8;">必考</td>
+
+                            <td style="padding:10px 14px; color:#94a3b8;">极值与二重积分对称性化简，均为大题高频</td>
+
+                        </tr>
+
+                        <tr style="border-bottom:1px solid #334155; background:rgba(244,63,94,0.06);">
+
+                            <td style="padding:10px 14px;"><strong>三重积分 (切片/柱面/球面)</strong></td>
+
+                            <td style="padding:10px 14px; color:#f87171; font-weight:bold;">必考 (四大天王)</td>
+
+                            <td style="padding:10px 14px; color:#10b981; font-weight:bold;">彻底不考 ❌</td>
+
+                            <td style="padding:10px 14px; color:#cbd5e1;">数二直接减负，无需掌握空间立体积分</td>
+
+                        </tr>
+
+                        <tr style="border-bottom:1px solid #334155; background:rgba(244,63,94,0.06);">
+
+                            <td style="padding:10px 14px;"><strong>第一类/第二类曲线曲面积分</strong></td>
+
+                            <td style="padding:10px 14px; color:#f87171; font-weight:bold;">必考 (格林/高斯公式)</td>
+
+                            <td style="padding:10px 14px; color:#10b981; font-weight:bold;">彻底不考 ❌</td>
+
+                            <td style="padding:10px 14px; color:#cbd5e1;">数一计算量最大、最容易丢分的大题章节，数二完全不用学</td>
+
+                        </tr>
+
+                        <tr style="border-bottom:1px solid #334155; background:rgba(244,63,94,0.06);">
+
+                            <td style="padding:10px 14px;"><strong>无穷级数 (数项级数与幂级数求和)</strong></td>
+
+                            <td style="padding:10px 14px; color:#f87171; font-weight:bold;">必考 (傅里叶级数)</td>
+
+                            <td style="padding:10px 14px; color:#10b981; font-weight:bold;">彻底不考 ❌</td>
+
+                            <td style="padding:10px 14px; color:#cbd5e1;">数一必有一道 10~12 分压轴大题，数二完全不考</td>
+
+                        </tr>
+
+                        <tr style="border-bottom:1px solid #334155; background:rgba(244,63,94,0.06);">
+
+                            <td style="padding:10px 14px;"><strong>概率论与数理统计全书</strong></td>
+
+                            <td style="padding:10px 14px; color:#f87171; font-weight:bold;">占 22% (约33分)</td>
+
+                            <td style="padding:10px 14px; color:#10b981; font-weight:bold;">完全不考 (0分) ❌</td>
+
+                            <td style="padding:10px 14px; color:#cbd5e1;">数二直接省掉整整一本概率辅导书的复习时间</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <!-- English Comparison Cards -->
+
+            <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:12px; padding:20px;">
+
+                <h4 style="color:var(--accent-amber); font-size:0.95rem; margin-bottom:12px;">🇬🇧 英语一 vs 英语二 题型与提分难度对比</h4>
+
+                <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:15px; font-size:0.8rem; line-height:1.5;">
+
+                    <div style="background:#0f172a; padding:12px; border-radius:8px; border:1px solid #334155;">
+
+                        <strong style="color:#fde047; display:block; margin-bottom:4px;">1. 阅读理解 (Part A 40分)</strong>
+
+                        <p style="color:#cbd5e1;"><strong>英一</strong>：长难句抽象，多选自英美哲理与社科期刊，题目陷阱多，过线难。<br><strong>英二</strong>：多选自商业、科技与社会生活，文章主旨清晰，答案定位更直接，均分普遍高 8~12 分。</p>
+
+                    </div>
+
+                    <div style="background:#0f172a; padding:12px; border-radius:8px; border:1px solid #334155;">
+
+                        <strong style="color:#fde047; display:block; margin-bottom:4px;">2. 翻译题型 (Part C 10~15分)</strong>
+
+                        <p style="color:#cbd5e1;"><strong>英一 (10分)</strong>：从极难学术长文中挑出 5 个超长句，生词怪词多，全国均分仅 3~4 分。<br><strong>英二 (15分)</strong>：通篇翻译一段约 150 词的连贯小短文，语境流畅，得分率普遍在 10 分以上。</p>
+
+                    </div>
+
+                    <div style="background:#0f172a; padding:12px; border-radius:8px; border:1px solid #334155;">
+
+                        <strong style="color:#fde047; display:block; margin-bottom:4px;">3. 写作大作文 (Part B 15~20分)</strong>
+
+                        <p style="color:#cbd5e1;"><strong>英一 (20分)</strong>：图画作文，需要准确提炼漫画中的深层哲理寓意并升华。<br><strong>英二 (15分)</strong>：图表作文（柱状/饼状/折线），三段式套路模板极度规范，提分见效快。</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 4. Templates View -->
+
+        <div id="templates-view" class="view-panel">
+
+            <div class="code-block-card">
+
+                <div class="code-header">
+
+                    <span>经典 41 题：双指针快慢扫描（链表判环与找中点）</span>
+
+                    <button class="btn-copy" onclick="copyCode('code1')">复制代码</button>
+
+                </div>
+
+                <pre id="code1">// 寻找单链表中点/倒数第k个结点
+
+ListNode* findMiddle(ListNode* head) {
+
+    if (!head || !head->next) return head;
+
+    ListNode *slow = head, *fast = head;
+
+    while (fast && fast->next) {
+
+        slow = slow->next;          // 慢指针步长 1
+
+        fast = fast->next->next;    // 快指针步长 2
+
+    }
+
+    return slow; // 当fast到底时，slow恰好位于中点
+
+}
+
+// 时间复杂度: O(N) 一趟遍历; 空间复杂度: O(1) 仅需指针常数空间</pre>
+
+            </div>
+
+            <div class="code-block-card">
+
+                <div class="code-header">
+
+                    <span>操作系统：经典生产者-消费者 PV 信号量模板</span>
+
+                    <button class="btn-copy" onclick="copyCode('code2')">复制代码</button>
+
+                </div>
+
+                <pre id="code2">semaphore mutex = 1;     // 互斥信号量：保护缓冲区互斥访问
+
+semaphore empty = N;     // 资源信号量：空闲缓冲区数量
+
+semaphore full = 0;      // 资源信号量：已存放的产品数量
+
+void producer() {
+
+    while (1) {
+
+        Item item = produce_item();
+
+        P(empty);       // 先申请空位 (防止死锁，必须先P资源再P互斥)
+
+        P(mutex);       // 加锁缓冲区
+
+        put_into_buffer(item);
+
+        V(mutex);       // 解锁缓冲区
+
+        V(full);        // 增加就绪产品
+
+    }
+
+}
+
+void consumer() {
+
+    while (1) {
+
+        P(full);        // 先申请产品
+
+        P(mutex);       // 加锁缓冲区
+
+        Item item = take_from_buffer();
+
+        V(mutex);       // 解锁缓冲区
+
+        V(empty);       // 归还空位
+
+        consume_item(item);
+
+    }
+
+}</pre>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modular ES Module Entry -->
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>
